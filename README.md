@@ -40,7 +40,7 @@ Getting Started
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/stopwatch-clock-app.git
+git clone https://github.com/delmohan/stopwatch-clock-app.git
 
 
 2. Open index.html in your browser.
