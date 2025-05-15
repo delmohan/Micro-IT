@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Stopwatch & Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Stopwatch & Clock</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="container">
+
+<body>
+  <div class="container">
+    <div class="toggle-theme">
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <h1>🕒 Clock</h1>
+    <div id="clock">00:00:00</div>
+
+    <h1>⏱️ Stopwatch</h1>
+    <div id="stopwatch">00:00:00</div>
+    <div class="buttons">
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop</button>
+      <button onclick="resetStopwatch()">Reset</button>
+      <button onclick="lapTime()">Lap</button>
+    </div>
+    <ul id="laps"></ul>
+  </div>
+  <audio id="beep-sound" src="beep.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+  <footer>
+    <p>&copy; 2025 Delkowshiyasri. All rights reserved.</p>
+  </footer>
+
+</html>
